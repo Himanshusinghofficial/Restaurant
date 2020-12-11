@@ -1,0 +1,86 @@
+
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.ImgFood{
+    width: 40%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.ImgTop{
+    border-radius: 30px;
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+}
+
+.fontS{
+  font-size: 20px;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.parallax{
+    height: 350px;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+    /* .parallax-container {
+        min-height: 380px;
+        line-height: 0;
+        height: auto;
+        color: rgba(255,255,255,.9);
+      } */
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+    .parallax-container {
+        min-height: 700px;
+        line-height: 0;
+        height: auto;
+        color: rgba(225, 225, 225, 0.9);
+      }
+      .parallax{
+        height: 700px;
+    }
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
