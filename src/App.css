@@ -44,12 +44,6 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
-    /* .parallax-container {
-        min-height: 380px;
-        line-height: 0;
-        height: auto;
-        color: rgba(255,255,255,.9);
-      } */
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -83,4 +77,73 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+
+/* Shimmer Effect */
+.br {
+  border-radius: 8px;  
+}
+.w80 {
+   width: 80%;
+}
+.w20{
+  width: 25%;
+}
+.w30{
+  width: 25%;
+  height: 40px;
+}
+.cardShimmer {
+  border: 2px solid #fff;
+  box-shadow:0px 0px 10px 0 #a9a9a9;
+  padding: 30px 40px;
+  width: 80%;
+  margin: 50px auto;
+}
+.wrapper {
+  width: 0px;
+  animation: fullView 0.5s forwards cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+.profilePic {
+  min-height: 150px;
+  height: auto;
+  border-radius: 30px;
+}
+.comment {
+  height: 15px;
+  background: #777;
+  margin-top: 10px;
+}
+
+.box {
+  min-height: 435px;
+  height: auto;
+}
+.box1 {
+  width: auto;
+  height: 50px;
+  border-radius: 30px;
+}
+
+@keyframes fullView {
+  100% {
+    width: 100%;
+  }
+}
+
+
+.animate {
+   animation : shimmer 2s infinite linear;
+   background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
 }
