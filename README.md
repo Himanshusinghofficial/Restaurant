@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# food App-:mortar_board:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front End: ReactJS<br>
+Instructions:<br>
+1.used basic concepts of ReactJS<br>
+2.used routing, redux<br>
+3.wrote a clear & clean code with proper comments.<br>
+4.used ui frameworks like bootstrap, material etc.<br>
 
-## Available Scripts
+Home Screen :<br>
+* Restaurant Page with basic details like Name, location, phone number, must-try dishes, photos (scroll). Home page screen contains shimmer effect.<br>
+* Home screen contains list of Recommended food and by using add button user can add that food to their cart.<br>
+* Restaurant Page is static page.<br>
 
-In the project directory, you can run:
+## `How to Run`  <br>
+1) git clone https://github.com/Himanshusinghofficial/Restaurant.git<br>
+2) cd restaurant<br>
+3) npm install<br>
+4) npm start<br>
 
-### `npm start`
+## `Made by: Himanshu Singh & Email:hs882677@gmail.com`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## `I Used` :smiley: <br>
+1) React-Redux (FrontEnd) :heart:<br>
+2) Materializecss/Css (Styling) <br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## `Some ScreenShots` :camera:
+### `Desktop View` :computer:
 
-### `npm test`
+#### `Image 1-3: Shimmer Effect`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](Project_Images/Image1.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](Project_Images/Image2.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](Project_Images/Image3.png)
 
-### `npm run eject`
+#### `Image 4-6: Home Page Content`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](Project_Images/Image4.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](Project_Images/Image6.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+![](Project_Images/Image7.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### `Image 7-8: Displaying Notification PopUp`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](Project_Images/Image5.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![](Project_Images/Image8.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `Mobile View` :iphone:
 
-### Making a Progressive Web App
+#### `Image 9-11: Shimmer Effect (Responsive)`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](Project_Images/Image9.png)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![](Project_Images/Image10.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](Project_Images/Image11.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### `Image 12: Menu-Toggle (Responsive)`
+
+![](Project_Images/Image12.png)
+
+#### `Image 13-16: Home Page Content(Responsive)`
+
+![](Project_Images/Image13.png)
+
+
+![](Project_Images/Image14.png)
+
+
+![](Project_Images/Image15.png)
+
+
+![](Project_Images/Image16.png)
+
+#### `Image 17-18: Displaying Notification PopUp(Responsive)`
+
+![](Project_Images/Image17.png)
+
+
+![](Project_Images/Image18.png)
+
+
+### `Thanks You` :raised_hands:
